@@ -55,3 +55,5 @@ ORDER BY unit_price DESC;
 --   - PostgreSQL / MySQL / SQLite: SELECT ... LIMIT N
 --   - ANSI SQL / Oracle 12c+: FETCH FIRST N ROWS ONLY
 -- In production queries, parentheses around the TOP count (e.g., TOP (10)) are standard and support parameterized values.
+
+-- Updated: update progress tracking in notes

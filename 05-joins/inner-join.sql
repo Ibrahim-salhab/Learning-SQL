@@ -64,3 +64,5 @@ ORDER BY b.price DESC;
 -- Always use explicit table aliases (e.g., AS o, AS c) and qualify every column name to prevent ambiguous column reference errors.
 -- Avoid legacy comma-joins (e.g. FROM A, B WHERE A.id = B.id); explicit ANSI JOIN syntax separates join conditions from row filters.
 -- If the join column in either table contains NULL, that row will NOT match because NULL = NULL evaluates to UNKNOWN.
+
+-- Updated: refactor join aliases for readability

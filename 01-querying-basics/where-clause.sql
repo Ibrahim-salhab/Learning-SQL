@@ -58,5 +58,3 @@ WHERE phone_number IS NOT NULL;
 -- Comparison operators: =, <>, !=, <, >, <=, >=. Preferred ANSI standard for "not equal" is <>.
 -- NULL Gotcha: In three-valued logic (TRUE, FALSE, UNKNOWN), column = NULL or column <> NULL always evaluates to UNKNOWN, which produces 0 rows. Always use IS NULL or IS NOT NULL.
 -- Column aliases defined in SELECT cannot be referenced in the WHERE clause because WHERE executes before SELECT.
-
--- Updated: refactor comments and formatting in filtering notes
